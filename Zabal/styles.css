@@ -40,7 +40,7 @@ body {
     width: 100%;
     height: 40px;
     background-color: var(--color-purple);
-    color: var(--text-main);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,7 +141,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('Imagenes/Poster.png');
+    background-image: url('Imagenes/poster.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -394,7 +394,9 @@ body {
 /* Footer */
 .footer { background-color: #000000; color: white; padding: 4rem 5% 2rem; }
 .footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2rem; max-width: 1200px; margin: 0 auto 3rem; }
-.footer-logo-img { height: 60px; object-fit: contain; margin-bottom: 1rem; filter: invert(0); /* Black background, so we want the white logo as is */ }
+.footer-logo { max-width: 300px; }
+.footer-logo-img { height: 80px; margin-bottom: 1rem; mix-blend-mode: screen; }
+.footer-logo p { color: var(--text-light); }
 .footer-social h4 { margin-bottom: 1rem; color: var(--color-orange); }
 .footer-social a { display: block; color: #ccc; text-decoration: none; margin-bottom: 0.5rem; }
 .footer-social a:hover { color: var(--bg-white); }
