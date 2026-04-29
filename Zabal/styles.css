@@ -306,17 +306,6 @@ body {
 .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; background: var(--bg-white); }
 .faq-answer p { padding: 0 2rem 1.5rem 2rem; color: var(--text-light); line-height: 1.7; }
 
-/* Reveal Animations */
-.reveal {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
-}
-.reveal.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 /* Toast Notifications */
 #toast-container {
     position: fixed;
